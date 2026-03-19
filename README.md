@@ -23,8 +23,8 @@ O fluxo de dados foi estruturado para garantir a integridade das informações e
 
 * **/dashboard**: Arquivo `.pbix` do relatório com dados em cache.
 * **/data/raw_data**: Pasta contendo os 27 arquivos originais do IBGE por UF.
-* **/data/base_saneada**: Arquivo Excel gerado após o primeiro ETL que alimenta o Power BI.
-* **/geo**: Arquivos de malha geográfica para os visuais de mapa.
+* **/data/pam_brasil**: Arquivo `.xlsx` gerado após o primeiro ETL que alimenta o Power BI.
+* **/geo**: Arquivo geográfico para os visuais de mapa.
 
 ---
 
@@ -39,7 +39,7 @@ Para atualizar o projeto localmente, é necessário configurar os parâmetros de
 
 **2. No Power BI:**
 * Vá em `Transformar Dados` > `Editar Parâmetros`.
-* Informe o novo caminho para a **Base Saneada** (Excel) e para a tabela de **Geografia**.
+* Informe o novo caminho para a **pam_brasil** (Excel) e para a tabela de **Geografia**.
 * Clique em **Aplicar Alterações**.
 
 ---
