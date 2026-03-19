@@ -12,7 +12,7 @@ O fluxo de dados foi estruturado para garantir a integridade das informações e
 * **Parametrização:** Utilização do parâmetro `p_PAM` para definição do diretório de origem, facilitando a atualização em diferentes máquinas.
 
 ### 2. Modelagem e Performance (Power BI)
-* **Modelo Dimensional:** Estrutura Star Schema composta por tabelas Fato (`f_Producao`) e Dimensões (`d_Cultivo`, `d_Geografia`).
+* **Modelo Dimensional:** Estrutura Star Schema composta por tabelas Fato (`fato_PAM`) e Dimensões (`d_Cultivo`, `d_Geografia`).
 * **Regras de Negócio (DAX):** * Cálculo de **Rendimento Médio Ponderado** (Produtividade) por área colhida, seguindo a metodologia oficial do IBGE.
     * Conversão de unidades de medida e tratamento de grandezas financeiras (Mil Reais para Bilhões/Milhões).
     * KPIs condicionais baseados na seleção do cultivo.
