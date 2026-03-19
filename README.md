@@ -21,7 +21,7 @@ O fluxo de dados foi estruturado para garantir a integridade das informações e
 
 ## Estrutura de Pastas
 
-* **/dashboard**: Arquivo `.pbix` do relatório com dados em cache.
+* **/PAM Brasil 2024**: Arquivo `.pbix` do relatório com dados em cache.
 * **/data/raw_data**: Pasta contendo os 27 arquivos originais do IBGE por UF.
 * **/data/pam_brasil**: Arquivo `.xlsx` gerado após o primeiro ETL que alimenta o Power BI.
 * **/geo**: Arquivo geográfico para os visuais de mapa.
