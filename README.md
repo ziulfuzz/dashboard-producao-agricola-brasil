@@ -45,3 +45,7 @@ Para atualizar o projeto localmente, é necessário configurar os parâmetros de
 ---
 
 **Tecnologias:** Power BI, Power Query (Linguagem M), Excel, DAX.
+
+### Contato
+**Luiz Henrique Alves** 
+[LinkedIn](https://www.linkedin.com/in/luizhenriqueaaugusto/)
