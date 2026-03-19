@@ -1,7 +1,3 @@
-Aqui está o conteúdo completo e final para o seu README.md e para o seu Post do LinkedIn, seguindo o tom direto, técnico e sem distrações que você solicitou.
-1. Conteúdo para o README.md (Copie e cole no GitHub)
-Markdown
-
 # Dashboard de Inteligência Agrícola Nacional (Base IBGE 2024)
 
 Este projeto apresenta uma solução de Business Intelligence para análise de faturamento e produtividade do setor agrícola brasileiro. A base de dados utilizada é a Pesquisa Agrícola Municipal (PAM - IBGE).
