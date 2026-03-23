@@ -21,26 +21,10 @@ O fluxo de dados foi estruturado para garantir a integridade das informações e
 
 ## Estrutura de Pastas
 
-* **/PAM Brasil 2024**: Arquivo `.pbix` do relatório com dados em cache.
+* **/dashboard.png**: Arquivo de imagem mostrando o dashboard.
 * **/data/raw_data**: Pasta contendo os 27 arquivos originais do IBGE por UF.
 * **/data/pam_brasil**: Arquivo `.xlsx` gerado após o primeiro ETL que alimenta o Power BI.
 * **/geo**: Arquivo geográfico para os visuais de mapa.
-
----
-
-## Instruções para Execução
-
-Para atualizar o projeto localmente, é necessário configurar os parâmetros de origem:
-
-**1. No arquivo Excel:**
-* Acesse `Dados` > `Consultas e Conexões` > `Editar Parâmetros`.
-* Altere o valor do parâmetro `p_PAM` para o caminho da pasta `/data/raw_data` em seu computador.
-* Clique em **Atualizar Tudo**.
-
-**2. No Power BI:**
-* Vá em `Transformar Dados` > `Editar Parâmetros`.
-* Informe o novo caminho para a **pam_brasil** (Excel) e para a tabela de **Geografia**.
-* Clique em **Aplicar Alterações**.
 
 ---
 
